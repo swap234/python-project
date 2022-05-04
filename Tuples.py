@@ -1,0 +1,12 @@
+my_tuple=(0,1,2,3,4)
+print(my_tuple)
+print(type(my_tuple))
+my_tuple=(["Max","35","hdfjdhj"])
+print(my_tuple)
+len(my_tuple)
+a=(1,2,3,4,5,6)
+b=a[2:5]
+print(b)
+list_org=["baba","apple","veeksha"]
+list_cpy=list_org
+print(list_cpy)
