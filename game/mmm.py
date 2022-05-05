@@ -1,5 +1,5 @@
 
-import game.characters.player
+import characters.player
 
-get_characters_info()
-get_weapons_info()
+get characters_info()
+get weapons_info()

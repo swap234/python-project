@@ -1,13 +1,11 @@
 class person:
     pass
-
-
 class Person:
+ def name(self):
+  print("Function inside the class")
 
-    def name(self):
-         print("function inside the class")
-    def roll_no(self):
-         print("Second function in the class")
+ def roll_no(self):
+   print("Second function in the class")
 
 obj=Person()
 obj.name()
@@ -26,3 +24,14 @@ class child():
 obj=Parent()
 obj.car()
 obj.house()
+
+
+class Student:
+    pass
+
+student1=Student()
+student1.name="John"
+student1.marks=78
+
+print(student1.name)
+print(student1.marks)
